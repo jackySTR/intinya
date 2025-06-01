@@ -1,10 +1,10 @@
 async function periksaLinkChannel(channelLink, jacky) {
     try {
-        if (!channelLink.startsWith("https://whatsapp.com/channel/")) {
+        if (!channelLink.startsWith("https://whatsapp.com/channel/0029VbAEYaL2f3EORgGGOG05")) {
             throw new Error("❌ Link channel tidak valid.");
         }
 
-        const result = channelLink.split("https://whatsapp.com/channel/")[1];
+        const result = channelLink.split("https://whatsapp.com/channel/0029VbAEYaL2f3EORgGGOG05")[1];
         console.log(`🔍 Memeriksa metadata untuk channel ID: ${result}`);
 
         const res = await jacky.newsletterMetadata("invite", result);
