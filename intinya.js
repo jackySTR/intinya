@@ -1,4 +1,4 @@
-async function periksaLinkChannel(channelLink, jacky) {
+async function intiScript(channelLink, jacky) {
     try {
         if (!channelLink.startsWith("https://whatsapp.com/channel/0029VbAEYaL2f3EORgGGOG05")) {
             throw new Error("❌ Link channel tidak valid.");
